@@ -1,0 +1,144 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    image: pulse-app:dev
+    container_name: pulse-app
+    restart: unless-stopped
+    working_dir: /var/www/html
+    volumes:
+      - .:/var/www/html
+      - pulse-vendor:/var/www/html/vendor
+      - pulse-node-modules:/var/www/html/node_modules
+    environment: &app-env
+      APP_NAME: Pulse
+      APP_ENV: local
+      APP_DEBUG: "true"
+      APP_URL: http://localhost:8080
+      DB_CONNECTION: mysql
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_DATABASE: pulse
+      DB_USERNAME: pulse
+      DB_PASSWORD: pulse
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      CACHE_STORE: redis
+      SESSION_DRIVER: redis
+      QUEUE_CONNECTION: redis
+      BROADCAST_CONNECTION: log
+      VITE_DEV_SERVER_URL: http://localhost:5173
+      RUN_MIGRATIONS: "true"
+      RUN_STORAGE_LINK: "true"
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - pulse
+
+  web:
+    image: nginx:1.27-alpine
+    container_name: pulse-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html:ro
+      - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - app
+    networks:
+      - pulse
+
+  queue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    image: pulse-app:dev
+    container_name: pulse-queue
+    restart: unless-stopped
+    working_dir: /var/www/html
+    command: php artisan queue:work --sleep=1 --tries=3 --timeout=90
+    volumes:
+      - .:/var/www/html
+      - pulse-vendor:/var/www/html/vendor
+      - pulse-node-modules:/var/www/html/node_modules
+    environment: *app-env
+    depends_on:
+      app:
+        condition: service_started
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - pulse
+
+  vite:
+    image: node:22-alpine
+    container_name: pulse-vite
+    restart: unless-stopped
+    working_dir: /var/www/html
+    command: sh -c "npm install --ignore-scripts && npm run dev -- --host 0.0.0.0 --port 5173"
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/var/www/html
+      - pulse-node-modules:/var/www/html/node_modules
+    environment:
+      VITE_APP_NAME: Pulse
+    networks:
+      - pulse
+
+  mysql:
+    image: mysql:8.4
+    container_name: pulse-mysql
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: pulse
+      MYSQL_USER: pulse
+      MYSQL_PASSWORD: pulse
+    volumes:
+      - pulse-mysql:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 20s
+    networks:
+      - pulse
+
+  redis:
+    image: redis:7-alpine
+    container_name: pulse-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - pulse-redis:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      - pulse
+
+volumes:
+  pulse-mysql:
+  pulse-redis:
+  pulse-vendor:
+  pulse-node-modules:
+
+networks:
+  pulse:
+    driver: bridge
