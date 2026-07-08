@@ -669,7 +669,7 @@ No interstitial "setup complete, now configure 12 things" page.
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 6: User Journey](./UserJourney.md) |
 | **Next chapter** | [Chapter 8: First-Time Experience](./FirstTimeExperience.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [User Journey](./UserJourney.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [User Journey](./UserJourney.md) · [First-Time Experience](./FirstTimeExperience.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | All changes require review. Version increment on material changes. |
 
 ---
