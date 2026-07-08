@@ -415,7 +415,7 @@ If validation contradicts a persona assumption, update this chapter explicitly a
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 4: Target Audience](./TargetAudience.md) |
 | **Next chapter** | [Chapter 6: User Journey](./UserJourney.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [User Journey](./UserJourney.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | All changes require review. Version increment on material changes. |
 
 ---
