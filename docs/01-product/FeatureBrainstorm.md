@@ -437,7 +437,7 @@ Later chapters expand by horizon (v2, SaaS, plugins...)
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 8: First-Time Experience](./FirstTimeExperience.md) |
 | **Next chapter** | [Chapter 10: MVP](./MVP.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [User Journey](./UserJourney.md) · [Installation Journey](./InstallationJourney.md) · [First-Time Experience](./FirstTimeExperience.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [User Journey](./UserJourney.md) · [Installation Journey](./InstallationJourney.md) · [First-Time Experience](./FirstTimeExperience.md) · [MVP](./MVP.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | All changes require review. Version increment on material changes. |
 
 ---
