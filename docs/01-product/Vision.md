@@ -481,7 +481,7 @@ Each phase builds on the previous without requiring fundamental architectural ch
 | **Author** | Pulse Engineering Team |
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Next chapter** | [Chapter 2: Mission](./Mission.md) |
-| **Related documents** | [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [PROJECT_SPEC.md](../../PROJECT_SPEC.md), [Mission](./Mission.md) |
 | **Change process** | All changes require review. Version increment on material changes. |
 
 ---
