@@ -494,7 +494,7 @@ Until MVP DoD is met, the team optimizes for **proof**, not platform completenes
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 9: Feature Brainstorm](./FeatureBrainstorm.md) |
 | **Next chapter** | [Chapter 11: Version 2](./Version2.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [User Journey](./UserJourney.md) · [Installation Journey](./InstallationJourney.md) · [First-Time Experience](./FirstTimeExperience.md) · [Feature Brainstorm](./FeatureBrainstorm.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [User Journey](./UserJourney.md) · [Installation Journey](./InstallationJourney.md) · [First-Time Experience](./FirstTimeExperience.md) · [Feature Brainstorm](./FeatureBrainstorm.md) · [Version 2](./Version2.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | Scope changes require Aha veto review + version increment |
 
 ---
