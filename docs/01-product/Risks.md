@@ -388,7 +388,7 @@ Risks that impose hard requirements must appear as PRD constraints (redaction, p
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 15: Success Metrics](./SuccessMetrics.md) |
 | **Next chapter** | [Chapter 17: Business Model](./BusinessModel.md) |
-| **Related documents** | [Mission](./Mission.md) · [MVP](./MVP.md) · [Open Source Strategy](./OpenSourceStrategy.md) · [Success Metrics](./SuccessMetrics.md) · [SaaS Features](./SaaSFeatures.md) · [Plugin Marketplace](./PluginMarketplace.md) · [Version 2](./Version2.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Mission](./Mission.md) · [MVP](./MVP.md) · [Open Source Strategy](./OpenSourceStrategy.md) · [Success Metrics](./SuccessMetrics.md) · [SaaS Features](./SaaSFeatures.md) · [Plugin Marketplace](./PluginMarketplace.md) · [Version 2](./Version2.md) · [Business Model](./BusinessModel.md) · [Competitive Analysis](./CompetitiveAnalysis.md) · [Technical Constraints](./TechnicalConstraints.md) · [Final PRD](./PRD.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | Material risk rating changes each quarter; version increment on structural mitigation changes |
 
 ---
