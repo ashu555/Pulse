@@ -464,7 +464,7 @@ SaaS features in PRD should appear as a **later horizon section**, not dilute MV
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 11: Version 2](./Version2.md) |
 | **Next chapter** | [Chapter 13: Plugin Marketplace](./PluginMarketplace.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [MVP](./MVP.md) · [Version 2](./Version2.md) · [Feature Brainstorm](./FeatureBrainstorm.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [MVP](./MVP.md) · [Version 2](./Version2.md) · [Feature Brainstorm](./FeatureBrainstorm.md) · [Plugin Marketplace](./PluginMarketplace.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | Changes that move OSS capabilities behind paywall require explicit Mission review + version increment |
 
 ---
