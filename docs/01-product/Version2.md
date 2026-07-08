@@ -592,7 +592,7 @@ Version 2 forces design for:
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 10: MVP](./MVP.md) |
 | **Next chapter** | [Chapter 12: SaaS Features](./SaaSFeatures.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Feature Brainstorm](./FeatureBrainstorm.md) · [MVP](./MVP.md) · [First-Time Experience](./FirstTimeExperience.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Feature Brainstorm](./FeatureBrainstorm.md) · [MVP](./MVP.md) · [First-Time Experience](./FirstTimeExperience.md) · [SaaS Features](./SaaSFeatures.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | Epic priority changes require review; regression veto is binding; version increment on material changes |
 
 ---
