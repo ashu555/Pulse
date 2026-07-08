@@ -49,13 +49,18 @@ RUN apk add --no-cache \
     bash \
     curl \
     fcgi \
+    freetype \
+    icu-libs \
+    libjpeg-turbo \
+    libpng \
+    libzip \
+    oniguruma \
     freetype-dev \
     icu-dev \
     libjpeg-turbo-dev \
     libpng-dev \
     libzip-dev \
     oniguruma-dev \
-    postgresql-dev \
     $PHPIZE_DEPS \
     && docker-php-ext-configure gd --with-freetype --with-jpeg \
     && docker-php-ext-install -j"$(nproc)" \
@@ -66,11 +71,17 @@ RUN apk add --no-cache \
         opcache \
         pcntl \
         pdo_mysql \
-        pdo_pgsql \
         zip \
     && pecl install redis \
     && docker-php-ext-enable redis \
-    && apk del $PHPIZE_DEPS freetype-dev icu-dev libjpeg-turbo-dev libpng-dev \
+    && apk del \
+        $PHPIZE_DEPS \
+        freetype-dev \
+        icu-dev \
+        libjpeg-turbo-dev \
+        libpng-dev \
+        libzip-dev \
+        oniguruma-dev \
     && rm -rf /tmp/pear /var/cache/apk/*
 
 COPY docker/php/php.ini /usr/local/etc/php/conf.d/99-pulse.ini
@@ -106,8 +117,8 @@ COPY --from=production /var/www/html/public /var/www/html/public
 # -----------------------------------------------------------------------------
 FROM production AS development
 
+USER root
+
 RUN apk add --no-cache nodejs npm git mysql-client
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
-
-USER root

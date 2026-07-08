@@ -7,8 +7,9 @@ if [ ! -f .env ]; then
     cp .env.example .env
 fi
 
-if [ "${APP_ENV:-local}" = "local" ] && [ ! -f vendor/autoload.php ]; then
+if [ "${APP_ENV:-local}" = "local" ]; then
     composer install --no-interaction --prefer-dist
+    rm -f bootstrap/cache/packages.php bootstrap/cache/services.php bootstrap/cache/config.php
 fi
 
 if ! grep -q '^APP_KEY=base64:' .env 2>/dev/null; then
