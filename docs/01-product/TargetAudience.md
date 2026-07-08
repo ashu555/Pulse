@@ -457,7 +457,7 @@ The product wins when these statements become common and credible.
 | **Reviewers**         | CTO, Staff Engineer, Product Architect                                                                                                  |
 | **Previous chapter**  | [Chapter 3: Problem Statement](./ProblemStatement.md)                                                                                   |
 | **Next chapter**      | [Chapter 5: Personas](./Personas.md)                                                                                                    |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Personas](./Personas.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process**    | All changes require review. Version increment on material changes.                                                                      |
 
 
