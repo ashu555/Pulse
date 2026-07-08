@@ -436,7 +436,7 @@ Next volumes answer **how it feels, how it’s built, how it’s implemented**.
 | **Author** | Pulse Engineering Team |
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 19: Technical Constraints](./TechnicalConstraints.md) |
-| **Next** | [Volume 2 — UX (complete)](../02-ux/README.md) → Volume 3 Architecture |
+| **Next** | [Volume 3 — Architecture Chapter 1: System Overview](../03-architecture/SystemOverview.md) |
 | **Related documents** | Entire `docs/01-product/` set · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | PRD edits require review; MVP-affecting changes require Aha veto pass |
 

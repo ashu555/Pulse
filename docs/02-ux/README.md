@@ -23,7 +23,7 @@ Volume 1 (Product) is complete. Volume 2 defines experience, interaction, and vi
 | 13 | Prototype Scripts & Usability Plan | [UsabilityPlan.md](./UsabilityPlan.md) | Done |
 
 **Upstream authority:** [`../01-product/PRD.md`](../01-product/PRD.md)  
-**Next volume:** Architecture (`docs/03-architecture/` — to be created)
+**Next volume:** Architecture (`docs/03-architecture/`) — [started](../03-architecture/README.md)
 
 ### Volume 2 freeze
 
