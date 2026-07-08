@@ -544,7 +544,7 @@ Pulse solves the **comprehension** problem. It does not solve the **operations**
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 2: Mission](./Mission.md) |
 | **Next chapter** | [Chapter 4: Target Audience](./TargetAudience.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Target Audience](./TargetAudience.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | All changes require review. Version increment on material changes. |
 
 ---

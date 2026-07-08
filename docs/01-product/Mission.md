@@ -426,8 +426,8 @@ That sentence is the standard. Everything else is infrastructure.
 | **Author**            | Ashutosh                                                           |
 | **Reviewers**         | CTO, Staff Engineer, Product Architect                             |
 | **Previous chapter**  | [Chapter 1: Vision & Product Definition](./Vision.md)              |
-| **Next chapter**      | [Chapter 4: Target Audience](./TargetAudience.md)                  |
-| **Related documents** | [Vision](./Vision.md) · [Problem Statement](./ProblemStatement.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Next chapter**      | [Chapter 3: Problem Statement](./ProblemStatement.md)              |
+| **Related documents** | [Vision](./Vision.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process**    | All changes require review. Version increment on material changes. |
 
 
