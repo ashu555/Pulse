@@ -570,7 +570,7 @@ Everything else is expansion of a proven path.
 | **Reviewers** | CTO, Staff Engineer, Product Architect |
 | **Previous chapter** | [Chapter 5: Personas](./Personas.md) |
 | **Next chapter** | [Chapter 7: Installation Journey](./InstallationJourney.md) |
-| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Related documents** | [Vision](./Vision.md) · [Mission](./Mission.md) · [Problem Statement](./ProblemStatement.md) · [Target Audience](./TargetAudience.md) · [Personas](./Personas.md) · [Installation Journey](./InstallationJourney.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
 | **Change process** | All changes require review. Version increment on material changes. |
 
 ---
