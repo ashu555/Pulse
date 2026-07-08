@@ -40,13 +40,15 @@
 
 Chapter 1 defined *where Pulse is going*. This chapter defines *why Pulse exists and how we operate every day to get there.*
 
-| | Vision | Mission |
-|---|---|---|
-| **Question answered** | What future are we building? | Why do we exist, and what do we do about it? |
-| **Time horizon** | 3–5 years | Today, this sprint, this release |
-| **Audience** | Investors, contributors, the industry | The team, contributors, daily decision-makers |
-| **Tone** | Aspirational | Operational |
-| **Example** | "Pulse becomes the standard visualization platform for Laravel." | "We ship accurate, zero-config visualization before we ship anything else." |
+
+|                       | Vision                                                           | Mission                                                                     |
+| --------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Question answered** | What future are we building?                                     | Why do we exist, and what do we do about it?                                |
+| **Time horizon**      | 3–5 years                                                        | Today, this sprint, this release                                            |
+| **Audience**          | Investors, contributors, the industry                            | The team, contributors, daily decision-makers                               |
+| **Tone**              | Aspirational                                                     | Operational                                                                 |
+| **Example**           | "Pulse becomes the standard visualization platform for Laravel." | "We ship accurate, zero-config visualization before we ship anything else." |
+
 
 The vision is the destination. The mission is the compass.
 
@@ -88,16 +90,18 @@ Everything we build serves that job. We do not drift into adjacent categories—
 
 ### Our core activities
 
-| Activity | Description |
-|---|---|
-| **Discover** | Automatically scan Laravel applications to map routes, events, queues, controllers, jobs, and services—without manual configuration |
-| **Collect** | Capture real execution data from live application behavior through modular, extensible collectors |
-| **Visualize** | Render collected data as an interactive city where every element maps to a real architectural component |
-| **Stream** | Deliver visualization updates in real time so developers observe behavior as it happens |
-| **Explain** | Provide inspectable detail on every city element—click a building, see what happened inside |
-| **Extend** | Offer a plugin API so the community can add collectors, visualizations, and integrations without forking core |
-| **Document** | Maintain specifications, architecture decisions, and contributor guides before and alongside every line of code |
-| **Open** | Release everything under an open-source license with a governance model that invites contribution |
+
+| Activity      | Description                                                                                                                         |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| **Discover**  | Automatically scan Laravel applications to map routes, events, queues, controllers, jobs, and services—without manual configuration |
+| **Collect**   | Capture real execution data from live application behavior through modular, extensible collectors                                   |
+| **Visualize** | Render collected data as an interactive city where every element maps to a real architectural component                             |
+| **Stream**    | Deliver visualization updates in real time so developers observe behavior as it happens                                             |
+| **Explain**   | Provide inspectable detail on every city element—click a building, see what happened inside                                         |
+| **Extend**    | Offer a plugin API so the community can add collectors, visualizations, and integrations without forking core                       |
+| **Document**  | Maintain specifications, architecture decisions, and contributor guides before and alongside every line of code                     |
+| **Open**      | Release everything under an open-source license with a governance model that invites contribution                                   |
+
 
 ### What we do not do
 
@@ -111,15 +115,17 @@ Pulse complements the existing toolchain. It does not compete with it. See [Non-
 
 Pulse exists for the people who build and maintain Laravel applications. Our mission is fulfilled when each of these personas can do their job better because of Pulse.
 
-| Persona | Mission fulfillment looks like |
-|---|---|
-| **Senior Laravel developers** | Debugging a complex request flow by watching it, not reconstructing it from logs |
-| **Backend engineers** | Identifying bottlenecks by seeing where requests stall in the city |
-| **Software architects** | Validating that runtime behavior matches intended design by comparing the living city to the documented architecture |
-| **Engineering managers** | Onboarding new hires in hours instead of weeks with a self-explaining visual map |
-| **Open-source contributors** | Understanding an unfamiliar codebase instantly upon install |
-| **Students** | Connecting Laravel framework concepts to observable runtime behavior |
-| **Companies** | Reducing the cost of developer onboarding and incident resolution |
+
+| Persona                       | Mission fulfillment looks like                                                                                       |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Senior Laravel developers** | Debugging a complex request flow by watching it, not reconstructing it from logs                                     |
+| **Backend engineers**         | Identifying bottlenecks by seeing where requests stall in the city                                                   |
+| **Software architects**       | Validating that runtime behavior matches intended design by comparing the living city to the documented architecture |
+| **Engineering managers**      | Onboarding new hires in hours instead of weeks with a self-explaining visual map                                     |
+| **Open-source contributors**  | Understanding an unfamiliar codebase instantly upon install                                                          |
+| **Students**                  | Connecting Laravel framework concepts to observable runtime behavior                                                 |
+| **Companies**                 | Reducing the cost of developer onboarding and incident resolution                                                    |
+
 
 For the full persona definitions, see [Target Audience in Chapter 1](./Vision.md#target-audience).
 
@@ -295,18 +301,20 @@ What we are building, what we are not building, and why—visible to everyone. T
 
 Pulse aims to be the Laravel project people reference when they talk about exceptional open-source engineering. These commitments make that ambition operational.
 
-| Commitment | Standard |
-|---|---|
-| **Typing** | PHP 8.4 strict types. TypeScript on the frontend. No untyped public APIs. |
-| **Static analysis** | PHPStan/Larastan at maximum level. Zero baseline errors in CI. |
-| **Testing** | Unit, feature, and integration tests for every collector, service, and API endpoint. |
-| **CI/CD** | GitHub Actions on every push. Tests, linting, static analysis, and build verification. |
-| **Versioning** | Semantic versioning. Conventional commits. Automated changelog generation. |
-| **Architecture** | SOLID, DDD where appropriate, event-driven, CQRS where beneficial. Documented in ADRs. |
-| **API design** | REST with OpenAPI specification. Every UI capability available via API. |
-| **Security** | Dependency auditing in CI. Security policy published. Prompt response to reported vulnerabilities. |
-| **Performance** | Benchmarked collectors. Documented overhead. Load-tested realtime engine. |
-| **Accessibility** | WCAG 2.1 AA compliance for the dashboard. Keyboard navigation. Screen reader support. |
+
+| Commitment          | Standard                                                                                           |
+| ------------------- | -------------------------------------------------------------------------------------------------- |
+| **Typing**          | PHP 8.4 strict types. TypeScript on the frontend. No untyped public APIs.                          |
+| **Static analysis** | PHPStan/Larastan at maximum level. Zero baseline errors in CI.                                     |
+| **Testing**         | Unit, feature, and integration tests for every collector, service, and API endpoint.               |
+| **CI/CD**           | GitHub Actions on every push. Tests, linting, static analysis, and build verification.             |
+| **Versioning**      | Semantic versioning. Conventional commits. Automated changelog generation.                         |
+| **Architecture**    | SOLID, DDD where appropriate, event-driven, CQRS where beneficial. Documented in ADRs.             |
+| **API design**      | REST with OpenAPI specification. Every UI capability available via API.                            |
+| **Security**        | Dependency auditing in CI. Security policy published. Prompt response to reported vulnerabilities. |
+| **Performance**     | Benchmarked collectors. Documented overhead. Load-tested realtime engine.                          |
+| **Accessibility**   | WCAG 2.1 AA compliance for the dashboard. Keyboard navigation. Screen reader support.              |
+
 
 ---
 
@@ -358,14 +366,16 @@ Mission statements are worthless without accountability. Here is how Pulse measu
 
 Every quarter, the team evaluates:
 
-| Question | Evidence |
-|---|---|
-| Are developers seeing their city within 60 seconds of install? | Install-to-city metrics, user feedback |
-| Is every visualization grounded in real execution data? | Code audit, zero fake-data incidents |
-| Are contributors able to participate meaningfully? | PR count, time-to-first-PR, contributor retention |
-| Is documentation current and complete? | Doc coverage audit, broken link checks |
-| Are we building in the correct order? | Chapter completion status, ADR compliance |
-| Are we staying in our lane? | Feature creep audit against non-goals |
+
+| Question                                                       | Evidence                                          |
+| -------------------------------------------------------------- | ------------------------------------------------- |
+| Are developers seeing their city within 60 seconds of install? | Install-to-city metrics, user feedback            |
+| Is every visualization grounded in real execution data?        | Code audit, zero fake-data incidents              |
+| Are contributors able to participate meaningfully?             | PR count, time-to-first-PR, contributor retention |
+| Is documentation current and complete?                         | Doc coverage audit, broken link checks            |
+| Are we building in the correct order?                          | Chapter completion status, ADR compliance         |
+| Are we staying in our lane?                                    | Feature creep audit against non-goals             |
+
 
 ### Public scorecard
 
@@ -410,14 +420,16 @@ That sentence is the standard. Everything else is infrastructure.
 
 ## Document Governance
 
-| Field | Value |
-|---|---|
-| **Author** | Pulse Engineering Team |
-| **Reviewers** | CTO, Staff Engineer, Product Architect |
-| **Previous chapter** | [Chapter 1: Vision & Product Definition](./Vision.md) |
-| **Next chapter** | [Chapter 3: Problem Statement](./ProblemStatement.md) |
-| **Related documents** | [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
-| **Change process** | All changes require review. Version increment on material changes. |
+
+| Field                 | Value                                                              |
+| --------------------- | ------------------------------------------------------------------ |
+| **Author**            | Ashutosh                                                           |
+| **Reviewers**         | CTO, Staff Engineer, Product Architect                             |
+| **Previous chapter**  | [Chapter 1: Vision & Product Definition](./Vision.md)              |
+| **Next chapter**      | [Chapter 4: Target Audience](./TargetAudience.md)                  |
+| **Related documents** | [Vision](./Vision.md) · [Problem Statement](./ProblemStatement.md) · [PROJECT_SPEC.md](../../PROJECT_SPEC.md) |
+| **Change process**    | All changes require review. Version increment on material changes. |
+
 
 ---
 
