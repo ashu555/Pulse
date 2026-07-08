@@ -29,4 +29,4 @@ Canonical authority for consolidated requirements: **[Final PRD](./PRD.md)**.
 | 19 | Technical Constraints | [TechnicalConstraints.md](./TechnicalConstraints.md) |
 | 20 | Final PRD | [PRD.md](./PRD.md) |
 
-**Next volume:** UX (`docs/02-ux/` — to be created when Chapter work begins).
+**Next volume:** [Volume 2 — UX](../02-ux/README.md) (started).
